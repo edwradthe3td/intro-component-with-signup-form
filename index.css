@@ -1,0 +1,78 @@
+body{
+  background-color: rgb(220, 95, 95);
+  font-family: sans-serif;
+}
+.main{
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  align-items: center;
+  /* margin: 200px; */
+  margin: 15%;
+}
+.h1{
+  /* border: 1px solid black; */
+  font-size: 35px;
+  color: rgb(241, 237, 237);
+}
+.h1p{
+  color:rgb(241, 237, 237);
+  font-size: 15px;
+}
+.try-p{
+  /* border: 1px solid black; */
+  margin: 10px;
+  padding-left: 81px;
+  background-color: rgb(59, 59, 232);
+  color: white;
+  height: 40px;
+  padding-top: 15px;
+  border-radius: 5px;
+  box-shadow: 4px 4px 18px 18px solid rgb(33, 32, 32);
+}
+.try-s{
+  font-weight: 600;
+}
+form{
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+  height: 340px;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 4px 4px 18px 18px solid rgb(33, 32, 32);
+  box-shadow: black;
+}
+
+input, 
+button, 
+.form-p{
+  margin: 7px;
+  padding: 8px;
+  font-weight: 600;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-radius: 5px;
+  border-width: thin;
+}
+.form-p{
+  font-size:12.2px;
+  color: #b9b6d3;
+}
+button{
+  background-color: rgb(53, 151, 53);
+  border: none;
+  color: white;
+  padding: 13px;
+  font-weight: 100;
+  /* font-size: 12px; */
+}
+button:hover{
+  cursor: pointer;
+  opacity: 0.6;
+}
+.termsNservices{
+  color: red;
+}
